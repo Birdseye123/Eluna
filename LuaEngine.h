@@ -22,11 +22,7 @@
 #include "ElunaUtility.h"
 #include <mutex>
 #include <memory>
-
-extern "C"
-{
 #include "lua.h"
-};
 
 #if defined(TRINITY) || AZEROTHCORE
 struct ItemTemplate;
